@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/saved_post_btn"
+        android:title="Saved post" />
+
+    <item
+        android:id="@+id/saved_event_btn"
+        android:title="Saved Event"/>
+
+    <item
+        android:id="@+id/logout_btn"
+        android:title="@string/log_out" />
+
+</menu>

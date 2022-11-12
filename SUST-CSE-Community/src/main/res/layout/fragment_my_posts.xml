@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.MyPostsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="40dp"
+        android:text=" Here you can find the ALUMNI of SUST CSE"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:text="To search ALUMNI Click down the below button"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/findAlumniId"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
+        android:text="Find ALumni"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:text="To get more information you can visit the website"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:text="To visit website Click the below button"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        />
+
+
+    <Button
+        android:id="@+id/websiteID"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="350dp"
+        android:text="Go to website"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"/>
+</FrameLayout>

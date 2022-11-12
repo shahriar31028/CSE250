@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sight.Book_Activity"
+    android:background="#fcfcfc"
+    android:padding="8dp"
+    >
+
+    <androidx.core.widget.NestedScrollView
+
+        android:layout_width="290dp"
+        android:layout_height="699dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        tools:ignore="ExtraText">
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/bookthumbnail"
+                android:layout_marginRight="20dp"
+                android:layout_width="155dp"
+                android:layout_height="219dp"
+                android:background="#2d2d2d"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/txttitle"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="Book Title"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtCat"
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="23dp"
+                android:text="Category"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txtCompanyid"
+                android:layout_width="157dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="Company"
+                android:textSize="18sp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtDesc"
+                android:layout_width="260dp"
+                android:layout_height="141dp"
+
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="6dp"
+                android:text="Description"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/Callid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📞 Call Now"
+                android:layout_marginRight="30dp"
+
+                />
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>
